@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Location Search</title>
+  <link rel="stylesheet" href="style.css">
+  <iframe width="600" height="450" frameborder="0" style="border:0"
+  src="https://www.google.com/maps?q=11.037647, 76.959583&output=embed" allowfullscreen></iframe>
+  
+</head>
+<body>
+  <div class="container">
+    <h1>Location Finder</h1>
+    <div class="form-container">
+      <label for="latitude">Latitude:</label>
+      <input type="text" id="latitude" placeholder="Enter latitude">
+
+      <label for="longitude">Longitude:</label>
+      <input type="text" id="longitude" placeholder="Enter longitude">
+
+      <button id="searchBtn">Search Location</button>
+    </div>
+    <div id="map" style="height: 400px; width: 100%; margin-top: 20px;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
