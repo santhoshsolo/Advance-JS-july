@@ -1,8 +1,10 @@
 
-body, html {
+body {
     margin: 0;
     font-family: Arial, sans-serif;
     text-align: center;
+    color:azure;
+    background-color: black;
   }
   
   .container {
